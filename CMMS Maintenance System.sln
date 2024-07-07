@@ -10,16 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		index.html = index.html
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{EAFC4244-8B64-4723-99FF-66C7876CF615}"
-	ProjectSection(SolutionItems) = preProject
-		CMMS Maintenance System\css\styles.css = CMMS Maintenance System\css\styles.css
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{B9523421-8133-49B5-B342-7E873578F9EC}"
-	ProjectSection(SolutionItems) = preProject
-		CMMS Maintenance System\js\scripts.js = CMMS Maintenance System\js\scripts.js
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +23,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EAFC4244-8B64-4723-99FF-66C7876CF615} = {12A14287-6103-4E69-B728-E8EDB1D6E58D}
-		{B9523421-8133-49B5-B342-7E873578F9EC} = {12A14287-6103-4E69-B728-E8EDB1D6E58D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC85923B-C326-48AD-824C-0EA03C2532A5}
