@@ -1,3 +1,3 @@
 ﻿document.addEventListener('DOMContentLoaded', function () {
-    console.log('CMMS Maintenance System Loaded');
+    console.log('Project Dashboard Loaded');
 });

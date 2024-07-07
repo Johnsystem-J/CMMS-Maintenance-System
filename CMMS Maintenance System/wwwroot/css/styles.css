@@ -39,12 +39,43 @@ main {
     padding: 20px;
 }
 
-footer {
-    background-color: #333;
-    color: white;
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.chart {
+    flex: 1;
+    min-width: 45%;
+    height: 200px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
