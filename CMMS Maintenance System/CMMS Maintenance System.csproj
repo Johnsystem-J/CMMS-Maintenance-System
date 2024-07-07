@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -6,6 +6,22 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>CMMS_Maintenance_System</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="css\styles.css" />
+    <None Remove="js\scripts.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="css\styles.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="js\scripts.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
