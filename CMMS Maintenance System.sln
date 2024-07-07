@@ -3,7 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMMS Maintenance System", "CMMS Maintenance System\CMMS Maintenance System.csproj", "{46BC6071-0ABE-4258-8A7C-92CF63561821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMMS Maintenance System", "CMMS Maintenance System\CMMS Maintenance System.csproj", "{46BC6071-0ABE-4258-8A7C-92CF63561821}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12A14287-6103-4E69-B728-E8EDB1D6E58D}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{EAFC4244-8B64-4723-99FF-66C7876CF615}"
+	ProjectSection(SolutionItems) = preProject
+		CMMS Maintenance System\css\styles.css = CMMS Maintenance System\css\styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{B9523421-8133-49B5-B342-7E873578F9EC}"
+	ProjectSection(SolutionItems) = preProject
+		CMMS Maintenance System\js\scripts.js = CMMS Maintenance System\js\scripts.js
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +33,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAFC4244-8B64-4723-99FF-66C7876CF615} = {12A14287-6103-4E69-B728-E8EDB1D6E58D}
+		{B9523421-8133-49B5-B342-7E873578F9EC} = {12A14287-6103-4E69-B728-E8EDB1D6E58D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC85923B-C326-48AD-824C-0EA03C2532A5}

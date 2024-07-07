@@ -8,15 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="css\styles.css" />
     <None Remove="js\scripts.js" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="css\styles.css">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
     <Content Include="js\scripts.js">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
