@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>Shutdown Project</title>
-    <link rel="stylesheet" type="text/css" href="wwwroot/css/SP.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="./wwwroot/css/SP.css">
 </head>
 <body>
     <header>
@@ -20,14 +21,28 @@
     <div class="new-project-button">
         <button id="new-project-btn">New Project</button>
     </div>
-    <div id="datepicker-container" style="display: none; text-align: center; margin-top: 20px;">
-        <input type="text" id="datepicker">
+    
+    <!-- Popup Modal -->
+    <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <label for="Startdate">Start date:</label>
+            <input type="text" id="Startdate" class="datepicker" placeholder="Select Start Date">
+            <br><br>
+            <label for="Enddate">End date:</label>
+            <input type="text" id="Enddate" class="datepicker" placeholder="Select End Date">
+            <br><br>
+            <button id="create-btn">Create</button>
+            <p id="error-message" style="color: red; display: none;">End date cannot be earlier than Start date.</p>
+        </div>
     </div>
+
     <footer>
         <p>&copy; 2024 Project Dashboard. All rights reserved.</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-    <script src="wwwroot/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="./wwwroot/js/scripts.js"></script>
 </body>
 </html>
